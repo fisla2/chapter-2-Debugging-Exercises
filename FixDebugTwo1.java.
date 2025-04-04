@@ -1,0 +1,17 @@
+// DebugTwo1.java - Incorrect version
+public class DebugTwo1
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello, world!"
+    }
+}
+
+// FixDebugTwo1.java - Corrected version
+public class FixDebugTwo1
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello, world!"); // Missing closing parenthesis and semicolon fixed
+    }
+}
