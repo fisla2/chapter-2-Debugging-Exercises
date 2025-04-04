@@ -1,0 +1,21 @@
+// DebugTwo2.java - Incorrect version
+public class DebugTwo2
+{
+    public static void main(String[] args)
+    {
+        int a = 5;
+        int b = 10;
+        System.out.println("The sum is: " + a + b); // Incorrect concatenation
+    }
+}
+
+// FixDebugTwo2.java - Corrected version
+public class FixDebugTwo2
+{
+    public static void main(String[] args)
+    {
+        int a = 5;
+        int b = 10;
+        System.out.println("The sum is: " + (a + b)); // Parentheses added to fix concatenation issue
+    }
+}
