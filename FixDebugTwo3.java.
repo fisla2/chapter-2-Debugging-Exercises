@@ -1,0 +1,19 @@
+// DebugTwo3.java - Incorrect version
+public class DebugTwo3
+{
+    public static void main(String[] args)
+    {
+        String message = "Java programming is fun";
+        System.out.println(message); // Misspelled variable name
+    }
+}
+
+// FixDebugTwo3.java - Corrected version
+public class FixDebugTwo3
+{
+    public static void main(String[] args)
+    {
+        String message = "Java programming is fun";
+        System.out.println(message); // Variable name corrected
+    }
+}
