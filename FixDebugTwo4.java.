@@ -1,0 +1,25 @@
+// DebugTwo4.java - Incorrect version
+public class DebugTwo4
+{
+    public static void main(String[] args)
+    {
+        int num = 10;
+        if(num = 10) // Assignment operator used instead of comparison
+        {
+            System.out.println("Number is 10");
+        }
+    }
+}
+
+// FixDebugTwo4.java - Corrected version
+public class FixDebugTwo4
+{
+    public static void main(String[] args)
+    {
+        int num = 10;
+        if(num == 10) // Corrected to equality comparison
+        {
+            System.out.println("Number is 10");
+        }
+    }
+}
